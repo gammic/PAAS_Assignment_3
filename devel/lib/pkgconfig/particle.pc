@@ -1,0 +1,8 @@
+prefix=/media/sf_Guida_autonoma/Perception/Assignment/3_assignment/devel
+
+Name: particle
+Description: Description of particle
+Version: 0.0.0
+Cflags: -I/media/sf_Guida_autonoma/Perception/Assignment/3_assignment/src/particle/include
+Libs: -L${prefix}/lib 
+Requires: nav_msgs roscpp

@@ -1,0 +1,8 @@
+prefix=/home/nacho/OCME/particleFilter/install
+
+Name: particle
+Description: Description of particle
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: nav_msgs roscpp
